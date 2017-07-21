@@ -1,0 +1,87 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>404</title>
+
+<style>
+	.container{
+		min-height: 300px;
+		background: #f8f8f8;
+		padding-top: 100px;
+	}
+	#error{
+		width: 960px;
+		margin: 0 auto 30px;
+		font-family: "Microsoft Yahei",arial;
+
+	}
+	.error-btn{
+		display: inline-block;
+		background: #404040;
+		font-size: 14px;
+		padding: 8px 30px;
+		border: none;
+		color: #fff;
+		cursor: pointer;
+		outline: none;
+		font-family: "Microsoft Yahei",arial;
+		
+	}
+	.error-btn:hover{
+		background: #393939;
+	}
+	.btn-groups{
+		text-align: center;
+		margin: 50px auto;
+	}
+	.key1{
+		background: url(/static/404/img/key1.png) no-repeat;
+		width: 145px;
+		height: 159px;
+		display: inline-block;
+		position: relative;
+		top: 50px;
+
+	}
+	.key2{
+		background: url(/static/404/img/key2.png) no-repeat;
+		width: 214px;
+		height: 77px;
+		display: inline-block;
+		position: relative;
+		top: 14px;
+		left: 10px;
+	}
+	.text{
+		font-size: 18px;
+		margin-left: 18px;
+		position: relative;
+		top: -16px;
+		color: #222;
+	}
+	.pic-key{
+		margin: 0px auto 80px;
+		width: 600px;
+		position: relative;
+		left: 30px;
+
+	}
+</style>
+</head>
+<body style="background:#fff;">
+<div class="container">
+	<div id="error">
+		
+		<div class="pic-key">
+			<i class='key1'></i>
+			<span class='text'>对不起，钥匙断了！</span>
+			<i class='key2'></i>
+		</div>	
+		<div class="btn-groups">
+			<button class="error-btn" onclick="location.href='/'">您可以返回最初的那扇门</button>
+			<button class="error-btn" onclick="history.go(-1)">返回上一道门 </button>
+		</div>
+	</div>
+</div>
+</body>
+</html>
